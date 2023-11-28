@@ -1,0 +1,145 @@
+h1{
+    color: red;
+    font-size: 40px;
+    text-align: center;    
+}
+
+h2{
+    color: black;
+    font-size: 30px; 
+}
+h3{
+    font-size: 25px;
+}
+
+body{
+    padding: 70px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F2F2F2;
+}
+
+header{
+    background: #F2F2F2;
+}
+
+.main-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #F2F2F2;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+    align-items: center;
+    color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.main-nav svg{
+    fill: #EB5428;
+    height: auto;
+    width: 20px;
+    cursor: pointer;
+}
+        
+.nav-item{
+    display: flex;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.nav-img{
+    width: 20px;
+    height: auto;
+}
+
+.nav-caption{
+    display: block;
+    color: #333;
+    font-size: 0.75em;
+}
+
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+main{
+    background-color: #F2F2F2;
+}
+
+nav{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
