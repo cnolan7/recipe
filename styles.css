@@ -1,5 +1,5 @@
 h1{
-    color: red;
+    color:#0D0D0D;
     font-size: 40px;
     text-align: center;    
 }
@@ -82,6 +82,36 @@ nav{
     flex-direction: column;
 }
 
+.icon-button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.icon-button svg{
+    fill: #EB5428;
+    width: 24px;
+    height: 24px;
+    
+}
+
+.icon-button:hover, .icon-button:focus{
+    background-color: #f0f0f0;
+    outline: none;
+}
+
+.icon-button:focus-visible{
+    box-shadow: 0 0 0 2px rgba(235, 84, 40, 0.5);
+}
+
+.icon-button{
+    transition: background-color 0.3s ease;
+}
 
 @media print{
 
@@ -264,7 +294,7 @@ nav{
         font-size: 0.75em;
         text-align: center;
     }
-
+}
 @media (min-width: 1280px) {
     body{
         margin: 0;
@@ -398,7 +428,7 @@ nav{
     }
 
 }    
-}
+
 
 
 
