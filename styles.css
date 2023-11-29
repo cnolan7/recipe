@@ -121,7 +121,152 @@ nav{
     }
 }
 
+@media only screen and (max-width: 414px){
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .main-nav{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+
+    .main-nav .nav-item, .main-nav svg:not(icon-hamburger, .icon-logo, .icon-signin){
+        display: none;
+    }
+
+    .main-nav form{
+        width: 100%;
+        order: 1;
+    }
+
+    .icon-hamburger{
+        display: block;
+    }
+
+    h1{
+        order: 2; 
+    }
+
+    .icon-save, .icon-share, .icon-print, .icon-jump{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    article > img{
+        max-width: 100%;
+        height: auto;
+        display: block;
+
+    }
+
+    .recipe-details{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ingredients, .directions{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .side-dishes{
+        background-color: #7ABFBF;
+    }    
+
+    .social-media nav{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        order: 4;
+    }
+
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media only screen and (max-width: 768){
+    .main-nav, 
+    .footer-content,
+    .side-dishes,
+    .recipe-description,
+    .recipe-details,
+    .ingredients,
+    .directions{
+        margin: 0;
+        padding: 0;
+        border: none;
+        background: none;
+        box-shadow: none;
+        max-width: none;
+        flex-basis: auto;
+        order: 0;
+    } 
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.5em;
+    }
+
+    header .logo{
+        order: 1;
+    }
+
+    header form{
+        order: 2;
+        flex-grow: 1;
+        margin: 0 1em;
+    }
+ 
+    header .signin{
+        order: 3;
+    }
+
+    .header-top{
+        text-align: left;
+
+    }
+
+    .header-nav{
+        width: 100%;
+        display: block;
+    }
+
+    .main-nav{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-nav .nav-item{
+        display: flex;
+    }
+
+    .main-nav .nav-img{
+        width: 100%;
+        height: auto;
+    }
+
+    .main-nav .nav-caption{
+        display: block;
+        color: #333;
+        font-size: 0.75em;
+        text-align: center;
+    }
+
+
+}
 
 
 
