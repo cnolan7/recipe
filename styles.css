@@ -265,7 +265,139 @@ nav{
         text-align: center;
     }
 
+@media (min-width: 1280px) {
+    body{
+        margin: 0;
+        background-color: #F2F2F2;
+        
+    }
 
+    header, main, footer{
+        margin-left: 10%;
+        margin-right: 10%;
+        background-color: #fff;
+        position: relative;
+        box-sizing: border-box;
+    }
+
+    .header-top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header-top h1, nav.header-nav, .header-top img{
+        margin-bottom: 1rem;
+    }
+
+    form{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+
+    }
+
+    form input[type="search"],
+    form button {
+        margin: 0 0.5rem;
+    }
+
+    .recipe-description,
+    .recipe-details,
+    .ingredients,
+    .directions,
+    .side-dishes{
+        background-color: #fff;
+        padding: 1rem;
+    }
+
+    .recipe-description{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .recipe-description img{
+        width: 60%;
+    }
+
+    .recipe-description .visually-hidden + p{
+        width: 35%;
+        text-align: right;
+    }
+
+    .recipe-details dl{
+        display: flex;
+        justify-content: space-around;
+        color: rgba(122,191,191,.5);
+        background-color: #0D0D0D;
+        padding: 1rem;
+    }
+
+    .recipe-details dt{
+        font-weight: bold;
+        display: block;
+    }
+
+    .recipe-details dd{
+        margin: 0 0 1rem 0;
+    }
+
+    .ingredients, .directions{
+        display: inline-block;
+        vertical-align: top;
+        width: 49%;
+        margin-right: 1%;
+    }
+
+    .ingredients ul, .directions ol{
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .side-dishes{
+        background-color: #7ABFBF;
+    }
+
+    .side-dish{
+        display: inline-block;
+        width: 24%;
+        margin: 1%;
+        text-align: center;
+    }
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-content{
+        width: 49%;
+    }
+
+    .footer-content img{
+        width: 100px;
+        vertical-align: middle;
+
+    }
+
+    .footer-content p{
+        display: inline;
+        margin-left: 1rem;
+    }
+
+    nav.main-nav{
+        width: 49%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    nav.main-nav svg{
+        margin-left: 1rem;
+    }
+
+}    
 }
 
 
