@@ -316,6 +316,11 @@ nav{
         align-items: center;
     }
 
+    .header-top .logo{
+        order: 1;
+        margin-right: auto;
+    }
+
     .header-top h1, nav.header-nav, .header-top img{
         margin-bottom: 1rem;
     }
@@ -417,10 +422,27 @@ nav{
         margin-left: 1rem;
     }
 
+    nav.header-nav{
+        order:2;
+        display: flex;
+        align-items: center;
+        width: auto;
+        margin: 0 1rem;
+    }
+
+    .header-top .signin{
+        order: 3;
+        margin-left: auto;
+    }
+
     nav.main-nav{
         width: 49%;
         display: flex;
         justify-content: flex-end;
+    }
+
+    nav.header-nav > *{
+        margin: 0;
     }
 
     nav.main-nav svg{
@@ -428,61 +450,3 @@ nav{
     }
 
 }    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
